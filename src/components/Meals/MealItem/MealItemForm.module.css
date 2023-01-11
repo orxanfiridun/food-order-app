@@ -1,6 +1,14 @@
 .form {
   text-align: right;
 }
+@media (max-width: 768px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}
 
 .form button {
   font: inherit;
