@@ -15,8 +15,8 @@
 }
 @media (max-width: 768px) {
   .header {
-    height: auto;
     flex-direction: column;
+    height: auto;
   }
 }
 
